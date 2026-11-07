@@ -1,0 +1,33 @@
+{
+ "rating": 5,
+ "count": 3,
+ "mapsUri": "https://maps.google.com/?cid=5493522562666646836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
+ "writeUri": "https://search.google.com/local/writereview?placeid=ChIJR0qD5fe5yhQRNM1WMarpPEw",
+ "updated": "2026-11-07",
+ "reviews": [
+  {
+   "name": "Faruk Ortakaya",
+   "photo": "https://lh3.googleusercontent.com/a/ACg8ocJeRbWnTGcxus5hShVf5zOVFgiT5IreXtbWCC6IY1EoaqxD7A=s128-c0x00000000-cc-rp-mo",
+   "profile": "https://www.google.com/maps/contrib/106564331891680572898/reviews",
+   "rating": 5,
+   "time": "2026-09-16T07:46:41.906534944Z",
+   "text": "Kayra ekibi olarak Çin fuar organizasyonumuzdaki transferlerimizi Prex’e emanet ettik. Operasyon baştan sona çok başarılıydı. Çıkan pürüzlerde Ahmet Bey her an yanımızdaydı ve hızlıca çözüm üretti. Güvenilir ve kaliteli hizmetleri için teşekkürler."
+  },
+  {
+   "name": "M. FATİH SOLAK",
+   "photo": "https://lh3.googleusercontent.com/a/ACg8ocL0H-d6nECgOUOZ2fxHdSmrCjlHkBm7w1yGGuBUsZ1VeSad3g=s128-c0x00000000-cc-rp-mo",
+   "profile": "https://www.google.com/maps/contrib/116888176200849983777/reviews",
+   "rating": 5,
+   "time": "2026-10-22T16:42:27.231883943Z",
+   "text": ""
+  },
+  {
+   "name": "huseyin tekin",
+   "photo": "https://lh3.googleusercontent.com/a/ACg8ocK7tWQbw_V2K7TNRzWeeeJZvFhzmBgx7PcNFVB8MxJ-4fueL4M=s128-c0x00000000-cc-rp-mo-ba3",
+   "profile": "https://www.google.com/maps/contrib/101490719469640266753/reviews",
+   "rating": 5,
+   "time": "2026-10-22T08:09:00.367371018Z",
+   "text": ""
+  }
+ ]
+}

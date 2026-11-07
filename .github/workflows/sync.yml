@@ -1,0 +1,29 @@
+name: Google yorumlarını güncelle
+on:
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Yorumları çek
+        env:
+          GOOGLE_PLACES_KEY: ${{ secrets.GOOGLE_PLACES_KEY }}
+          GOOGLE_PLACE_ID: ${{ secrets.GOOGLE_PLACE_ID }}
+        run: python3 reviews_sync.py
+      - name: Commit et
+        run: |
+          git config user.name "reviews-bot"
+          git config user.email "reviews-bot@users.noreply.github.com"
+          git add reviews.json
+          git diff --cached --quiet || (git commit -m "Yorum güncellemesi $(date -u +%F)" && git push)
+      - name: jsDelivr önbelleğini temizle
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/prextour/prex-reviews@main/reviews.json" || true
