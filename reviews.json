@@ -1,9 +1,9 @@
 {
  "rating": 5,
- "count": 3,
+ "count": 4,
  "mapsUri": "https://maps.google.com/?cid=5493522562666646836&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAIYBCAA",
  "writeUri": "https://search.google.com/local/writereview?placeid=ChIJR0qD5fe5yhQRNM1WMarpPEw",
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "reviews": [
   {
    "name": "Faruk Ortakaya",
@@ -12,6 +12,14 @@
    "rating": 5,
    "time": "2026-09-16T07:46:41.906534944Z",
    "text": "Kayra ekibi olarak Çin fuar organizasyonumuzdaki transferlerimizi Prex’e emanet ettik. Operasyon baştan sona çok başarılıydı. Çıkan pürüzlerde Ahmet Bey her an yanımızdaydı ve hızlıca çözüm üretti. Güvenilir ve kaliteli hizmetleri için teşekkürler."
+  },
+  {
+   "name": "Kürşat Altıparmak",
+   "photo": "https://lh3.googleusercontent.com/a/ACg8ocK_vhILh2T4uJCBOxHKUm6ftTk8Vb12F9TdaPxNy1VKQG6KYQ=s128-c0x00000000-cc-rp-mo",
+   "profile": "https://www.google.com/maps/contrib/105531004805313804718/reviews",
+   "rating": 5,
+   "time": "2026-11-16T18:33:17.724145290Z",
+   "text": "Eşimle iki emekli olarak benelüks turuna katıldık herşey çok güzeldi. Rehber Murat beyden çok memnun kaldık. Gerçekten herkes işinin ehli ve profesyonel. Önümüzdeki sene için de Mısır düşünüyoruz."
   },
   {
    "name": "M. FATİH SOLAK",
